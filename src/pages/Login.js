@@ -6,7 +6,7 @@ import '../App.css'
 import { Auth } from 'firebase/auth'
 import { auth } from '../firebase'
 import {useNavigate} from 'react-router-dom';
-import giffer from 'C:/Users/ASHIS/Downloads/projects/requests/src/gifer.gif'
+import giffer from 'src/gifer.gif'
 const Login = () => {
     const [data,setData]=useState({
         email:"",

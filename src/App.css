@@ -363,7 +363,7 @@ color:white;
   flex-direction: column;
 }
 .messages-container{
-  background-image: url('C:\Users\ASHIS\Downloads\projects\requests\src\msgbg.jpg');
+  background-image: url('src\msgbg.jpg');
   margin-bottom: 60px;
 
 }
