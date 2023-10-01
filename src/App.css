@@ -2,9 +2,6 @@
   box-sizing:border-box;
 
 }
-body {
-
-}
 .section{
   opacity:1;
 }
@@ -363,7 +360,7 @@ color:white;
   flex-direction: column;
 }
 .messages-container{
-  background-image: url('src\msgbg.jpg');
+  background-image: url('./msgbg.jpg');
   margin-bottom: 60px;
 
 }
