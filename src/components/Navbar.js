@@ -9,7 +9,6 @@ import { Auth } from 'firebase/auth';
 import { AuthProvider, useAuth } from '../contexts/AuthContext';
 import { useContext } from 'react';
 import{useNavigate} from  'react-router-dom'
-import schat from 'C:/Users/ASHIS/Downloads/projects/requests/src/SCHAT.jpeg.png'
 const Navbar = () => {
     const navigate=useNavigate();
     const{User}=useAuth();
