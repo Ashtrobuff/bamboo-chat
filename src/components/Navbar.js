@@ -9,6 +9,7 @@ import { Auth } from 'firebase/auth';
 import { AuthProvider, useAuth } from '../contexts/AuthContext';
 import { useContext } from 'react';
 import{useNavigate} from  'react-router-dom'
+import schat from 'C:/Users/ASHIS/Downloads/projects/requests/src/SCHAT.jpeg.png'
 const Navbar = () => {
     const navigate=useNavigate();
     const{User}=useAuth();
@@ -26,13 +27,13 @@ await signOut(auth);
     <>
       <nav className="nav">
         <h3>
-       <Link to="/">Messenger</Link>
+       <Link to="/" className='navlogo'>SheeshChat</Link>
         </h3>
         <div>
         {User ? (
         <> 
             <Link to="/profile">Profile</Link>
-            <button className='btn' onClick={handleSignout}>Logout</button>
+            <button className='btn logout' onClick={handleSignout}>Logout</button>
         </>):(
             <>
             <Link to="/register">Register</Link>

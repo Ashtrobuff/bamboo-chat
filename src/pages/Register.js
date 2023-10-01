@@ -43,17 +43,17 @@ const Register = () => {
     <h3>Create an account</h3>
     <form className='form' onSubmit={handleSubmit}>
         <div className='input-container'>
-            <label htmlFor='name'>Name</label>
-            <input type="text" name="name" value={name} onChange={handelChange}/>
+            
+            <input placeholder='name' type="text" name="name" value={name} onChange={handelChange}/>
         </div>
         <div className='input-container'>
-            <label htmlFor='email'>Email</label>
-            <input type="text" name="email" value={email} onChange={handelChange}/>
+           
+            <input placeholder='email' type="text" name="email" value={email} onChange={handelChange}/>
             
         </div>
         <div className='input-container'>
-            <label htmlFor='password'>Password</label>
-            <input type="password" name="password" value={password} onChange={handelChange}/>
+           
+            <input placeholder="password"type="password" name="password" value={password} onChange={handelChange}/>
             
         </div>
         {error?<p className='error'>{error}</p>:null}

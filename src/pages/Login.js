@@ -6,6 +6,7 @@ import '../App.css'
 import { Auth } from 'firebase/auth'
 import { auth } from '../firebase'
 import {useNavigate} from 'react-router-dom';
+import giffer from 'C:/Users/ASHIS/Downloads/projects/requests/src/gifer.gif'
 const Login = () => {
     const [data,setData]=useState({
         email:"",
@@ -36,27 +37,35 @@ const Login = () => {
         }
     }
   return (
+    < div className='loginbox'>
+<img src={giffer} className='giffer'></img>
+
     <section className='section'>
     <h3>Log into your account</h3>
     <form className='form' onSubmit={handleSubmit}>
       
         <div className='input-container'>
-            <label htmlFor='email'>Email</label>
-            <input type="text" name="email" value={email} onChange={handelChange}/>
+            
+            <input  placeholder="email" type="text" id='email' name="email" value={email} onChange={handelChange}/>
             
         </div>
         <div className='input-container'>
-            <label htmlFor='password'>Password</label>
-            <input type="password" name="password" value={password} onChange={handelChange}/>
+          
+            <input type="password" placeholder="password"  id='password' name="password" value={password} onChange={handelChange}/>
             
         </div>
         {error?<p className='error'>{error}</p>:null}
         <div className='btn-container'>
-            <button className='btn'disabled={loading}>{loading?'logging in':'Login'}</button>
+            <button  id="loggerbtn"className='btn'disabled={loading}>{loading?'logging in':'Login'}</button>
         </div>
     </form>
       
     </section>
+    <div className='namer'>
+     Sheesh Chat
+     <h4 id="tagline">get in touch easily.</h4>
+</div>
+    </div>
   )
 }
 
