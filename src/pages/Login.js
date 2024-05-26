@@ -63,7 +63,7 @@ const Login = () => {
     </section>
     <div className='namer'>
      Sheesh Chat
-     <h4 id="tagline">get in touch easily.</h4>
+     <h4 id="tagline">get in touch instantly.</h4>
 </div>
     </div>
   )
