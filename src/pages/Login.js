@@ -61,10 +61,7 @@ const Login = () => {
     </form>
       
     </section>
-    <div className='namer'>
-     Sheesh Chat
-     <h4 id="tagline">get in touch instantly.</h4>
-</div>
+    
     </div>
   )
 }
