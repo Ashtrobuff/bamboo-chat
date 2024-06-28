@@ -1,4 +1,4 @@
-# Zipchat (renamed) is a completely functional communication platform!💬
+# 💬Zipchat (renamed) is a completely functional communication platform!🔗
 
 ## features:-
 ### ⚡️ completely based on database CRUD operations and not on socket.io 
