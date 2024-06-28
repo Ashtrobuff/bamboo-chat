@@ -1,4 +1,5 @@
-# <img src="https://emojipedia.org/speech-balloon"> Zipchat (renamed) is a completely functional communication platform!🔗
+# ![speech_balloon](https://github.com/Ashtrobuff/bamboo-chat/assets/93227004/05b3a1d6-7622-496b-8b92-21640df543e4) Zipchat (renamed) is a completely functional communication platform!🔗
+
 
 ## features:-
 ### ⚡️ completely based on database CRUD operations and not on socket.io 
