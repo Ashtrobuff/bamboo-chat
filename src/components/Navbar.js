@@ -26,7 +26,7 @@ await signOut(auth);
     <>
       <nav className="nav">
         <h3>
-       <Link to="/" className='navlogo'>SheeshChat</Link>
+       <Link to="/" className='navlogo'>ZipChat</Link>
         </h3>
         <div>
         {User ? (
